@@ -1,0 +1,16 @@
+/* mostly from customcssforfx */
+
+
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([selected="true"]):not([hover]):not([pinned]) .tab-close-button {
+  visibility: collapse !important; /**/
+}
+
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned])[selected="true"] .tab-close-button {
+  visibility: visible !important;
+  display: block !important;
+}
+
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:not([pinned]):hover .tab-close-button {
+  visibility: visible !important;
+  display: block !important;
+}

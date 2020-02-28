@@ -1,0 +1,4 @@
+.tab-label:-moz-lwtheme-brighttext {
+	color: #d0d0d0 !important;
+	mask-image: unset !important; /* may be useless*/
+}
